@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="at1.css">
+    <title>Atividade Tabuada</title>
+</head>
+<body>
+    <div class="card">
+        <div class="cardbox">
+            <h1>Informe o Número para visualizar a tabuada</h1>
+                <div>
+                    <label for="">
+                        <input class="BoxText" type="number" id="textbox">
+                        <input class="SendButton" type="button" value="enviar" id="sendbutton" onclick="toggleButton()">
+                    </label>
+                    <br>
+                    <br>
+                    <div id="resposta"></div>
+                </div>
+        </div>
+    </div>
+    <button class="goback" id="toggleButton" onclick="toggleButtonBack()">Voltar</button>
+</body>
+<script src="at1.js"></script>
+</html>

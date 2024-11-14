@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="at2.css">
+    <title>Calculo IMC</title>
+</head>
+<body>
+    <div class="card">
+        <div class="cardbox">
+            <div>
+                <h1>Calculo de peso ideal</h1>
+                <br><br><br><br><br><br><br>
+            <div class="group">
+                <input required="" type="number" class="input" id="boxtext1">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                <label>Peso</label>
+            </div>
+            <br><br>
+            <div class="group">
+                <input required="" type="text" class="input" id="boxtext2">
+                    <span class="highlight"></span>
+                    <span class="bar"></span>
+                <label>Altura</label>
+            </div>
+              <button id="butt1" onclick="togglebutton()">Enviar</button>
+            </div>
+            <div class="minibox" id="resposta"></div>
+        </div>
+    </div>
+    <div class="container">
+        <button id="buttonback"  class="buttonback" onclick="togglebuttonBack()">Voltar</button>
+    </div>
+</body>
+<script src="at2.js"></script>
+</html>

@@ -1,0 +1,125 @@
+
+body.inverno{
+    background-image: url(https://www.brasileirosemushuaia.com.br/wp-content/uploads/2018/01/roupas-inverno-01.gif);
+    background-size: cover;
+    background-position: center;
+}
+body.verao{
+    background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcm90M3FxZ2RxNGhweWFodHE2aWFzeGw0MmZwa2dvdjAxZncycDJmcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lfl95OUjiOtn9pWcqk/giphy.webp);
+    background-size: cover;
+    background-position: center;
+}
+body.primavera{
+    background-image: url(https://i.pinimg.com/originals/33/0d/c0/330dc0b3b3b2250cb1f1e56749f79ae1.gif);
+    background-size: cover;
+    background-position: center;
+}
+body.outono{
+    background-image: url(https://i.pinimg.com/originals/fa/1d/23/fa1d230d9ce2088ea68a7c0fe54f1e9f.gif);
+    background-size: cover;
+    background-position: center;
+}
+body.meianove{
+    background-image: url(https://media1.tenor.com/m/RPNoOOImaRwAAAAd/homer-simpson-homer-dance.gif);
+    background-position: center;
+}   
+
+.card {
+    display: flex;
+    width: 90%; 
+    max-width: 400px; 
+    min-height: 200px;
+    border-radius: 1.2em;
+    color: #999;
+    background: linear-gradient(#474787, #3D405B);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background: transparent;
+}
+.cardbox{
+    background-color: #3D405B;
+    border-radius: 20px;
+}
+
+.container {
+    position: relative;
+    top: 30px;
+    left: 0;
+    text-align: center;
+}
+
+.group {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+}
+
+.input:focus {
+    outline: none;
+}
+
+label {
+    color: #999;
+    font-size: 10px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+}
+
+.input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #5264AE;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    color: white;
+    background-color: #725AC1;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .input {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}

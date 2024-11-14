@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(#AAABB8,#ECECEC);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 70%;
+    border-radius: 1.2em;
+    color: white;
+    background: linear-gradient(#474787, #3D405B);
+    box-shadow:10px 10px 10px ( #2C2C54), -10px -10px 10px(#2C2C54);
+    text-align: center;
+    padding: 5px;
+}
+.cardbox{
+    background-color: #2C2C54;
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.BoxText{
+    width: 30px;
+}
+.SendButton{
+    border-radius: 5px;
+}
+.goback{
+    right: 395px;
+    top: -40px;
+    position: static;
+    display: inline-block;
+    margin: 50px;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 10px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+}
+  
+.goback:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1; 
+}
+  
+.goback:active {
+    transform: scale(0.9);
+}

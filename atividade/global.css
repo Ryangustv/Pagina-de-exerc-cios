@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    color: #999;
+    background: linear-gradient(#AAABB8, #ECECEC);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card {
+    display: flex;
+    width: 90%; 
+    max-width: 400px; 
+    min-height: 200px;
+    border-radius: 1.2em;
+    color: #999;
+    background: linear-gradient(#474787, #3D405B);
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+    background: transparent;
+}
+.cardbox{
+    background-color: #3D405B;
+    border-radius: 20px;
+}
+.butt11 {
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    display: flex;
+    justify-content: flex-start;
+}
+.backbutton {
+    margin-top: 20px;
+    text-align: center;
+}
